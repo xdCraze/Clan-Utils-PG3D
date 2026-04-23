@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{580ed052-6f06-405e-9eea-4f3c076a905d}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+	<ClInclude Include="$(MSBuildThisFileDirectory)Auth.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MinHook.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Json.hpp" />
+	<ClInclude Include="$(MSBuildThisFileDirectory)Obfusheader.hpp" />
+  </ItemGroup>
+</Project>

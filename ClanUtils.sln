@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cheat", "Cheat\Cheat.vcxproj", "{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Injector", "Injector\Injector.vcxproj", "{D474107E-BC37-4C43-AA44-06505C4622C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGui", "Dependencies\Shared\ImGui\ImGui.vcxitems", "{0F6B4063-AE34-471E-A24E-874A68BE7E82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Include", "Dependencies\Include\Include.vcxitems", "{580ED052-6F06-405E-9EEA-4F3C076A905D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logger", "Dependencies\Shared\Logger\Logger.vcxitems", "{C8166706-96A5-4508-B6E0-6FB7C2E1163A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unity", "Dependencies\Shared\Unity\Unity.vcxitems", "{302C53E2-550A-4034-B9BC-5C86978733DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Debug|x64.ActiveCfg = Debug|x64
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Debug|x64.Build.0 = Debug|x64
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Debug|x86.Build.0 = Debug|Win32
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Release|x64.ActiveCfg = Release|x64
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Release|x64.Build.0 = Release|x64
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Release|x86.ActiveCfg = Release|Win32
+		{8709E8CF-B7D0-4D29-80E6-6E3A6DB472DC}.Release|x86.Build.0 = Release|Win32
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Debug|x64.ActiveCfg = Debug|x64
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Debug|x64.Build.0 = Debug|x64
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Debug|x86.Build.0 = Debug|Win32
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Release|x64.ActiveCfg = Release|x64
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Release|x64.Build.0 = Release|x64
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Release|x86.ActiveCfg = Release|Win32
+		{D474107E-BC37-4C43-AA44-06505C4622C1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D0C3A2-1E42-45B9-87A7-376023BBEF9B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Dependencies\Shared\ImGui\ImGui.vcxitems*{0f6b4063-ae34-471e-a24e-874a68be7e82}*SharedItemsImports = 9
+		Dependencies\Shared\Unity\Unity.vcxitems*{302c53e2-550a-4034-b9bc-5c86978733dd}*SharedItemsImports = 9
+		Dependencies\Include\Include.vcxitems*{580ed052-6f06-405e-9eea-4f3c076a905d}*SharedItemsImports = 9
+		Dependencies\Shared\ImGui\ImGui.vcxitems*{8709e8cf-b7d0-4d29-80e6-6e3a6db472dc}*SharedItemsImports = 4
+		Dependencies\Shared\Logger\Logger.vcxitems*{8709e8cf-b7d0-4d29-80e6-6e3a6db472dc}*SharedItemsImports = 4
+		Dependencies\Shared\Unity\Unity.vcxitems*{8709e8cf-b7d0-4d29-80e6-6e3a6db472dc}*SharedItemsImports = 4
+		Dependencies\Shared\Logger\Logger.vcxitems*{c8166706-96a5-4508-b6e0-6fb7c2e1163a}*SharedItemsImports = 9
+		Dependencies\Shared\Logger\Logger.vcxitems*{d474107e-bc37-4c43-aa44-06505c4622c1}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
